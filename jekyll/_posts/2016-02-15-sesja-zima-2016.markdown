@@ -1,0 +1,12 @@
+---
+layout: halfpage
+title: Sesja zimowa 2016
+date: 2016-02-15 12:39:08
+post_img_url: /images/sesja_zima_2016.jpg
+language: pl
+---
+
+Wspólnych zmagań z sesją ciąg dalszy! Zapraszamy (standardowo do siedziby KSI, sala 1173) na przygotowania przed:
+
+- ASD - środa 17 lutego o 13:00
+- WDI - piątek 19 lutego o 13:00
