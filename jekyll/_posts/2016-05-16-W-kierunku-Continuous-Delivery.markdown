@@ -6,6 +6,7 @@ post_img_url: /images/cd.jpg
 language: pl
 ---
 Czy chcesz dowiedzieć się:
+
 - jak tworzone jest oprogramowanie na wielką skalę?
 - jak pogodzić ze sobą prace dziesiątek lub setek developerów?
 - dlaczego sam Git nie wystarczy?
