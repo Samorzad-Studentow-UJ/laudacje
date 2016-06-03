@@ -2,7 +2,7 @@
 layout: halfpage
 title: 12. SFI - dr Adam Roman
 date: 2016-02-03 21:01:14
-post_img_url: /images/12-sfi-Adam-Roman.jpg
+post_img_url: /images/12_sfi_Adam_Roman.jpg
 language: pl
 ---
 
