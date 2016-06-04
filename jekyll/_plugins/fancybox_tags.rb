@@ -51,7 +51,7 @@ module Jekyll
     def path_for(filename)
       filename = filename.strip
       prefix = (@context.environments.first['site']['photos_prefix'] unless filename =~ /^(?:\/|http)/i) || ""
-      "#{prefix}#{filename}"
+      "#{filename}"
     end
 
     def thumb_for(filename, thumb=nil)
@@ -124,8 +124,9 @@ module Jekyll
 
       lines.each do |line|
         if /(?<filename>[^\[\]:]+)(?:\[(?<thumb>\S*)\])?(?::(?<title>.*))?/ =~ line
+          list << "<div class=\"thumbnail\">"
           list << "<a href=\"#{p.path_for(filename)}\" class=\"fancybox\" rel=\"gallery-#{md5}\" title=\"#{title.strip if title}\">"
-          list << "<img src=\"#{p.path_for(filename)}\" alt=\"#{title.strip if title}\" class=\"image padded thumbnail\" /></a>"
+          list << "<img src=\"#{p.path_for(filename)}\" alt=\"#{title.strip if title}\"/></a></div>"
         end
       end
       "<div class=\"gallery\">\n#{list}\n</div>"
