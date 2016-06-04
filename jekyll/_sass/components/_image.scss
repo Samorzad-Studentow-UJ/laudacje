@@ -11,6 +11,12 @@
 		max-height: 400px;
 	}
 
+	a {
+		&.fancybox {
+			border-bottom: none;
+		}
+	}
+
 	.image {
 		border-radius: _size(border-radius);
 		border: 0;
@@ -61,5 +67,14 @@
 			img {
 				width: 100%;
 			}
+		}
+
+		&.padded {
+			margin: 0.5em 0.5em 0.5em 0.5em;
+		}
+
+		&.thumbnail {
+			width: 200px;
+			height: auto;
 		}
 	}
