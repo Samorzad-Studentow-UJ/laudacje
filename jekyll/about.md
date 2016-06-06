@@ -45,4 +45,12 @@ Ludzie KSI
 - Michał Kurzyński - gospodarz
 - Michał Herda - administrator serwerowni
 
-{% image_set photos/pages/about %}
+{% gallery %}
+/photos/pages/about/ksircianka.jpg: Gra o naszym Kole
+/photos/pages/about/my.jpg: 4/5 zarządu podczas Google Hash Code
+/photos/pages/about/nauka1.jpg
+/photos/pages/about/nauka2.jpg
+/photos/pages/about/nauka3.jpg
+/photos/pages/about/nerdy.jpg
+/photos/pages/about/WP_20150914_17_30_57_Pro.jpg
+{% endgallery %}

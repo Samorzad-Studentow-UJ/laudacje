@@ -16,7 +16,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: _misc(z-index-base);
+		z-index: 8000; /*originally was: _misc(z-index-base)*/
 
 		#socialIcons {
 			display: inline-block;

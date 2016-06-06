@@ -11,6 +11,12 @@
 		max-height: 400px;
 	}
 
+	a {
+		&.fancybox {
+			border-bottom: none;
+		}
+	}
+
 	.image {
 		border-radius: _size(border-radius);
 		border: 0;
@@ -62,4 +68,25 @@
 				width: 100%;
 			}
 		}
+	}
+
+	.thumbnail {
+		border-radius: _size(border-radius);
+		border: 0;
+		display: inline-block;
+		position: relative;
+	  width: 200px;
+	  height: 200px;
+	  overflow: hidden;
+	  margin: 5px 5px 5px 5px;
+	}
+	.thumbnail img {
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  height: 100%;
+	  width: auto;
+	  -webkit-transform: translate(-50%,-50%);
+	      -ms-transform: translate(-50%,-50%);
+	          transform: translate(-50%,-50%);
 	}
