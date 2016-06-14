@@ -2,7 +2,7 @@
 layout: halfpage
 title:  "Dzień wydziału"
 date:   2016-03-17 11:10:00
-post_img_url: /images/dzien_wydzialu.jpg
+post_img_url: /images/dzien_wydzialu_2016.jpg
 language: pl
 ---
 Za nami kolejna wspaniała edycja Dnia Wydziału Matematyki i Informatyki - dziękujemy serdecznie wszystkim zaangażowanym w to przedsięwzięcie. 
