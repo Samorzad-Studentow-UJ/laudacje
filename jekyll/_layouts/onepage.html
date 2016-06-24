@@ -113,19 +113,19 @@
 								<p>{% t 'section_news.text' %}</p>
 								<section class="features">
 								{% for post in site.posts: %}
-									<article>	
+									<article>
 										{% if post.post_img_url!="": %}
 								    		<a href="{{ post.url }}" class="image"><img src="{{ post.post_img_url }}" alt="" /></a>
 								    	{% endif; %}
 										<h3 class="major">{{ post.title }}</h3>
 										{{ post.excerpt }}
-										<a href="{{ post.url }}" class="special">{% t 'read_more' %}</a>		
+										<a href="{{ post.url }}" class="special">{% t 'read_more' %}</a>
 								    </article>
 								    {% if forloop.index == 4 %}
 									{% break %}
 								    {% endif %}
 								{% endfor %}
-								</section>	
+								</section>
 								<a href="/news/" class="special">{% t 'section_news.more' %}</a>
 							</div>
 						</section>
