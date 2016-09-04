@@ -90,9 +90,9 @@
 								<h2 class="major">{% t 'section_news.title' %}</h2>
 								<p>{% t 'section_news.text' %}</p>
 								<section class="features">
-								{% for post in site.posts: %}
+								{% for post in site.posts %}
 									<article>
-										{% if post.post_img_url!="": %}
+										{% if post.post_img_url != "" %}
 								    		<a href="{{ post.url }}" class="image"><img src="{{ post.post_img_url }}" alt="" /></a>
 								    	{% endif; %}
 										<h3 class="major">{{ post.title }}</h3>
