@@ -1,0 +1,40 @@
+name: 1970
+years:
+  - year: 1976
+    header: Wstedy powstaliśmy!
+    body: Jeszcze więcej fajnych informacji. Koło założył Kazimierz Jojczyk
+    zarzad_info: false
+  - year: 1977
+    header: Pierwszy rok z zarządem.
+    body:
+    zarzad_info: true
+    prezes:     Tadeusz Kędzierski
+    vice:       Barbara Janicka, Marta Kwiatkowska
+    skarbnik:   Jacek Nowak
+    sekretarz:  Lucyna Krupa
+    biblioteka: Leszek Śmigielski, Jan Piechowicz
+    gospodarz:
+    rewizyjna:  Andrzej Bieszczad, Janusz Szczypuła
+  - year: 1978
+    header: Drugi rok z zarządem.
+    body:
+    zarzad_info: true
+    prezes:     Jacek Nowak
+    vice:
+    skarbnik:
+    sekretarz:
+    biblioteka:
+    gospodarz:
+    rewizyjna1:
+    rewizyjna2:
+  - year: 1979
+    header: Trzeci rok z zarządem....
+    body:
+    zarzad_info: true
+    prezes:     Jacek Nowak
+    vice:       Barbara Janicka, Zbigniew Kędzioła
+    skarbnik:   Jerzy Kubski
+    sekretarz:  Lucyna Krupa
+    biblioteka: Marta Kwiatkowska, Leszek Śmigielski
+    gospodarz:
+    rewizyjna:  Lech Wolanin(?), Janusz Szczypuła, A. Zbrzezny (?)

@@ -19,11 +19,30 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									{% if page.post_img_url!="": %}
-										<p><img src="{{page.post_img_url}}" id="post_img" /></p>
-									{% endif; %}
-
-									{{ content }}
+									{{ page.excerpt }}
+<hr />
+<style>.decade h1 { font-size: 42px; } .year h3, .decade h1 { margin-bottom: 0px; } .year { margin-bottom: 10px; } .func_header { font-size: 16px; text-transform: uppercase; border-left: 1px solid white; padding-left: 3px;} .zarzad_czlowiek { display: inline-block; }</style>
+{% assign decades_data =(site.data.ksi_decades | sort | order: 'name') %}
+{% for decade_hash in decades_data %}
+{% assign decade = decade_hash[1] %}
+  <div class="decade" id="decade_{{decade_hash.first}}">
+    <h1>{{ decade.name }}-{{ decade.name | plus:10 }}</h1>
+    {% for year in decade.years %}
+    <div class="year" id="year_{{ year.year }}">
+      <h3>{{ year.year }}/{{ year.year | plus:1 }} - {{ year.header }}</h3>
+      {% if year.body != nil %} {{ year.body }} <br /> {% endif %}
+      {% if year.zarzad_info %}
+        <div class="zarzad_czlowiek">{% if year.prezes != nil %}<span class="func_header">prezes:</span> {{ year.prezes }} {% endif %}</div>
+        <div class="zarzad_czlowiek">{% if year.vice != nil %}<span class="func_header">wiceprezesi:</span> {{ year.vice }} {% endif %}</div>
+        <div class="zarzad_czlowiek">{% if year.skarbnik != nil %}<span class="func_header">skarbnik:</span> {{ year.skarbnik }} {% endif %}</div>
+        <div class="zarzad_czlowiek">{% if year.sekretarz != nil %}<span class="func_header">sekretarz:</span> {{ year.sekretarz }} {% endif %}</div>
+        <div class="zarzad_czlowiek">{% if year.biblioteka != nil %}<span class="func_header">biblioteka:</span> {{ year.biblioteka }} {% endif %}</div>
+        <div class="zarzad_czlowiek">{% if year.gospodarz != nil %}<span class="func_header">gospodarz:</span> {{ year.gospodarz }} {% endif %}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endfor %}
 
 								</div>
 							</div>

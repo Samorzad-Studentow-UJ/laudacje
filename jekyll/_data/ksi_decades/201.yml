@@ -1,0 +1,20 @@
+name: 2010
+years:
+  - year: 2010
+    header: rok akademicki 2010/2011
+    body: Jeszcze więcej fajnych informacji
+    zarzad_info: false
+  - year: 2015
+    header: rok akademicki 2015/2016
+    body: Jeszcze więcej fajnych informacji
+    zarzad_info: true
+    prezes:     Piotr Maliszewski
+    vice:       Dominika Zając
+    skarbnik:   Zub Tomasz
+    sekretarz:  Daniel Skowroński
+    gospodarz:  Patrycja Brzeska, Michał Kurzyński
+    rewizyjna:  Piotr Rytko, Szymon Borak
+  - year: 2016
+    header: rok akademicki 2016/2017
+    body: Jeszcze więcej fajnych informacji - TBA!
+    zarzad_info: false
