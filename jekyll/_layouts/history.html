@@ -21,8 +21,50 @@
 
 									{{ page.excerpt }}
 <hr />
-<style>.decade h1 { font-size: 42px; } .year h3, .decade h1 { margin-bottom: 0px; } .year { margin-bottom: 10px; } .func_header { font-size: 16px; text-transform: uppercase; border-left: 1px solid white; padding-left: 3px;} .zarzad_czlowiek { display: inline-block; }</style>
+<style>
+  .decade h1 {
+    font-size: 42px;
+  }
+  .year h3, .decade h1 {
+    margin-bottom: 0px;
+  }
+  .year {
+    margin-bottom: 10px;
+  }
+  .func_header {
+    font-size: 16px;
+    text-transform: uppercase;
+    border-left: 1px solid white;
+    padding-left: 3px;
+  }
+  .zarzad_czlowiek {
+    display: inline-block;
+  }
+
+  #decade_navigator{
+    position: absolute;
+    width: 100px;
+  }
+  .decade_link{
+    font-size: 28px;
+  }
+  #decade_viewer{
+    margin-left: 150px;
+  }
+</style>
+
 {% assign decades_data =(site.data.ksi_decades | sort | order: 'name') %}
+
+<div id="decade_navigator">
+  {% for decade_hash in decades_data %}
+  {% assign decade = decade_hash[1] %}
+    <div class="decade_link" id="decade_link_{{decade_hash.first}}">
+      <a href="javascript:openDecade({{decade_hash.first}})">{{ decade.name }}</a>
+    </div>
+  {% endfor %}
+</div>
+
+<div id="decade_viewer">
 {% for decade_hash in decades_data %}
 {% assign decade = decade_hash[1] %}
   <div class="decade" id="decade_{{decade_hash.first}}">
@@ -43,7 +85,7 @@
     {% endfor %}
   </div>
 {% endfor %}
-
+</div>
 								</div>
 							</div>
 
@@ -54,4 +96,6 @@
 
 			</div>
 
+{% include jquery.html %}      
+<script src="/js/history.js"></script>
 {% include skel_end.html %}
