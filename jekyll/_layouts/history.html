@@ -32,7 +32,8 @@
     margin-bottom: 0px;
   }
   .year {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+		border-top: 1px dashed white;
   }
   .func_header {
     font-size: 16px;
@@ -54,6 +55,11 @@
   #decade_viewer{
     margin-left: 150px;
   }
+
+	.year_body {
+		text-align: justify;
+		margin-bottom: 5px;
+	}
 </style>
 
 {% assign decades_data =(site.data.ksi_decades | sort | order: 'name') %}
@@ -74,8 +80,8 @@
     <h1>{{ decade.name }}-{{ decade.name | plus:10 }}</h1>
     {% for year in decade.years %}
     <div class="year" id="year_{{ year.year }}">
-      <h3>{{ year.year }}/{{ year.year | plus:1 }} - {{ year.header }}</h3>
-      {% if year.body != nil %} {{ year.body }} <br /> {% endif %}
+      <h3>{{ year.year }}/{{ year.year | plus:1 }} {% if year.header != nil %}- {{ year.header }}{% endif %}</h3>
+      {% if year.body != nil %}<div class="year_body">{{ year.body }} </div> {% endif %}
       {% if year.zarzad_info %}
         <div class="zarzad_czlowiek">{% if year.prezes != nil %}<span class="func_header">prezes:</span> {{ year.prezes }} {% endif %}</div>
         <div class="zarzad_czlowiek">{% if year.vice != nil %}<span class="func_header">wiceprezesi:</span> {{ year.vice }} {% endif %}</div>
