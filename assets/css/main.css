@@ -2351,6 +2351,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+
 		}
 
 		ul.alt {
@@ -2376,7 +2377,7 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1.25em 0 0;
+				padding: 0 1em;
 			}
 
 				ul.icons li:last-child {
@@ -2984,7 +2985,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 1em 0 0.2em;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -2995,11 +2996,12 @@
 	}
 
 		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			/* border-bottom-color: rgba(255, 255, 255, 0.5); */
+			border-bottom: none;
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				/* color: #ffffff; */
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -3079,9 +3081,9 @@
 		}
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 0.7em;
 			list-style: none;
-			margin: 2em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 0;
 		}
 
@@ -3132,7 +3134,6 @@
 			}
 
 		/* List */
-
 			ul.major-icons li {
 				padding: 2em;
 			}
@@ -3167,7 +3168,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 4em 0 4em 0 ;
+				padding: 1em;
 				background-attachment: scroll;
 			}
 
@@ -3204,7 +3205,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 5em 3em 5em 3em ;
+				padding: 1em ;
 			}
 
 		/* One */
@@ -3299,7 +3300,11 @@
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
+				padding: 1em ;
+			}
+
+			#footer img {
+				max-width: 80%;
 			}
 
 	}
@@ -3370,7 +3375,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
+				padding: 1.5em ;
 			}
 
 				#footer .copyright {
