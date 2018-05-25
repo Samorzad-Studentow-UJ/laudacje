@@ -965,7 +965,7 @@
 		}
 
 		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25em;
+			padding: 0 0 2em 2.25em;
 		}
 
 		.row.\31 50\25 {
@@ -1180,7 +1180,7 @@
 		}
 
 		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25em;
+			padding: 0 0 2em 2.25em;
 		}
 
 		.row.\31 50\25 {
@@ -1395,7 +1395,7 @@
 		}
 
 		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25em;
+			padding: 0 0 2em 2.25em;
 		}
 
 		.row.\31 50\25 {
@@ -1610,7 +1610,7 @@
 		}
 
 		.row.\31 50\25 > * {
-			padding: 0 0 0 2.25em;
+			padding: 0 0 2em 2.25em;
 		}
 
 		.row.\31 50\25 {
@@ -3229,11 +3229,23 @@
 				text-align: center;
 			}
 
+			.special {
+				padding: 5em 3em 0em 3em;
+			}
+
 	}
 
 /* Small */
 
 	@media screen and (max-width: 736px) {
+
+		#three .row p {
+			min-height: 0rem;
+		}
+
+		.special {
+			padding: 3em 1.5em 0em 1.5em;
+		}
 
 		/* Basic */
 
@@ -3323,6 +3335,10 @@
 	@media screen and (max-width: 480px) {
 
 		/* List */
+
+		#three .row p {
+			min-height: 0rem;
+		}
 
 			ul.actions {
 				margin: 0 0 2em 0;
@@ -3432,6 +3448,10 @@
 				padding: 2em 1em 2em 1em ;
 			}
 
+			#three .row p {
+				min-height: 0rem;
+			}
+
 	}
 
 /* custom changes */
@@ -3458,7 +3478,7 @@
 	}
 	
 	.newsarticle {
-		padding: 2em 1.5em 2em 1.5em;
+		padding: 2em 0em 2em 0em;
 	}
 
 	.newsarticle header p {
@@ -3468,3 +3488,59 @@
 	.newsarticle .\36u {
 		width: 100%;
 	}
+
+	@media screen and (max-width: 980px) {
+		#three .row p {
+			min-height: 0rem;
+		}
+
+		.last-in-row{
+			padding: 0 0 0 2.25em;
+		}
+
+		.newsarticle {
+			padding: 2em 3em 0em 3em;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+		#three .row p {
+			min-height: 0rem;
+		}
+
+		.last-in-row{
+			padding: 0 0 0 2.25em;
+		}
+
+		.newsarticle {
+			padding: 2em 3em 0em 3em;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		#three .row p {
+			min-height: 0rem;
+		}
+
+		.last-in-row{
+			padding: 0 0 0 2.25em;
+		}
+
+		.newsarticle {
+			padding: 2em 3em 0em 3em;
+		}
+	}
+
+	@media screen and (max-width: 320px) {
+		#three .row p {
+			min-height: 0rem;
+		}
+
+		.newsarticle {
+			padding: 2em 3em 0em 3em;
+		}
+
+		.last-in-row{
+			padding: 0 0 0 2.25em;
+		}
+	}	
