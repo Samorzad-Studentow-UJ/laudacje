@@ -2798,9 +2798,9 @@
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
-		background-color: #0b1b22;
-		background: linear-gradient(to top, #397088, #4686a0 14%, #4686a0 86%, #407490);
+		padding: 9em 0 9em 0;
+		background-color: #4686a0;
+		background: linear-gradient(to left bottom,#54bd9d, #3596a0);
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-position: top left,						center center,					center center;
