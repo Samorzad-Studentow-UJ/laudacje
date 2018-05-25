@@ -1985,14 +1985,15 @@
 		margin: 0 0 1em 0;
 	}
 
-		header.major:after {
+		/* brzydka ta kreska jakas */
+		/* header.major:after {
 			background: rgba(144, 144, 144, 0.5);
 			content: '';
 			display: inline-block;
 			height: 1px;
 			margin-top: 1.5em;
 			width: 6em;
-		}
+		} */
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			margin: 0;
@@ -3428,4 +3429,39 @@
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+/* custom changes */
+	#three .row p {
+		min-height: 6rem;
+	}
+
+	.headline {
+		text-align: center;
+		padding: 2rem 0 0 0;
+	}
+	.headline .container::after {
+		background: rgba(144, 144, 144, 0.5);
+		content: '';
+		display: inline-block;
+		height: 1px;
+		margin-top: 0;
+		width: 85%;
+		
+	}
+
+	#newsfeed .container h2 {
+		margin: 0 0 0 0;
+	}
+	
+	.newsarticle {
+		padding: 2em 1.5em 2em 1.5em;
+	}
+
+	.newsarticle header p {
+		font-size: 1em;
+	}
+
+	.newsarticle .\36u {
+		width: 100%;
 	}
