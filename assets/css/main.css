@@ -3322,7 +3322,9 @@
 			}
 
 			#footer img {
-				max-width: 80%;
+				max-height: 4em;
+				width: auto;
+				height: auto;
 			}
 
 	}
@@ -3526,6 +3528,10 @@
 		.newsarticle {
 			padding: 2em 3em 0em 3em;
 		}
+
+		#footer ul li img {
+			max-width: 80%;
+		}
 	}
 
 	@media screen and (max-width: 320px) {
@@ -3540,4 +3546,4 @@
 		.last-in-row{
 			padding: 0 0 0 2.25em;
 		}
-	}	
+	}
