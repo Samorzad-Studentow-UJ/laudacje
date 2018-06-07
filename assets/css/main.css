@@ -2711,7 +2711,8 @@
 
 		.main.style2 {
 			/* background-color: #4686a0; */
-			background: linear-gradient(to left bottom,#54bd9d, #3596a0);			
+			background-color: #030618;
+    		background: linear-gradient(to left bottom,#151f48, #030618);
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -2799,8 +2800,8 @@
 
 	#header {
 		padding: 9em 0 9em 0;
-		background-color: #4686a0;
-		background: linear-gradient(to left bottom,#54bd9d, #3596a0);
+		background-color: #030618;
+    	background: linear-gradient(to left bottom,#151f48, #030618);
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-position: top left,						center center,					center center;
@@ -2990,8 +2991,8 @@
 
 	#footer {
 		padding: 1em 0 0.2em;
-		background: linear-gradient(to left bottom,#54bd9d, #3596a0);
-		/* background-color: #4686a0; */
+		background-color: #030618;
+    	background: linear-gradient(to left bottom,#151f48, #030618);
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%); */
