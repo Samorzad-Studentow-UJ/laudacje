@@ -3454,6 +3454,13 @@
 	}
 
 /* custom changes */
+	#header {
+		background-image: linear-gradient(90deg, rgba(3, 6, 24, 0.9), rgba(3, 6, 24, 0.9)), url("../../images/bg.jpeg");
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-attachment: initial;
+	}
+
 	#three .row p {
 		min-height: 6rem;
 	}
@@ -3469,13 +3476,13 @@
 		height: 1px;
 		margin-top: 0;
 		width: 85%;
-		
+
 	}
 
 	#newsfeed .container h2 {
 		margin: 0 0 0 0;
 	}
-	
+
 	.newsarticle {
 		padding: 2em 0em 2em 0em;
 	}
