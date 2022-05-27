@@ -2701,6 +2701,13 @@
 
 /* Main */
 
+.main.style2-blue {
+    /* background-color: #4686a0; */
+    background-color: #030618 !important;
+    background: linear-gradient(to left bottom, #151f48, #030618) !important;
+    color: rgba(255, 255, 255, 0.75);
+}
+
 	.main {
 		padding: 6em 0 4em 0 ;
 	}
@@ -2712,7 +2719,7 @@
 		.main.style2 {
 			/* background-color: #4686a0; */
 			background-color: #030618;
-    		background: linear-gradient(to left bottom,#151f48, #030618);
+    		background: linear-gradient(to left bottom, #915f15, #bb8127);
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -3455,7 +3462,7 @@
 
 /* custom changes */
 	#header {
-		background-image: linear-gradient(45deg, rgba(3, 6, 24, 0.85), rgba(3, 6, 24, 0.9)), url("../../images/bg.jpeg");
+		background-image: linear-gradient(45deg, rgba(3, 6, 24, 0.85), rgba(3, 6, 24, 0.9)), url("../../images/bg.jpg");
 		background-repeat:no-repeat;
 		background-position: center center;
 		background-attachment: initial;
